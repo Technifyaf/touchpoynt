@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Text } from 'theme-ui';
+import { jsx, Box, Container, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 import { LearnMore } from 'components/link';
@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     color: '#28D1DC',
-    value: '80K+',
-    title: 'We have more than customers',
+    value: '5K+',
+    title: '5 thousand small business accounts',
   },
   {
     id: 2,
     color: '#FF753A',
-    value: '150+',
-    title: 'Free online tutorials videos available',
+    value: '15K+',
+    title: 'Activer users',
   },
   {
     id: 3,
     color: '#FA578E',
-    value: '90+',
-    title: 'Daily updated blog post maintain',
+    value: '100K',
+    title: '100 thousand ratings and reviews',
   },
   {
     id: 4,
     color: '#28DCB2',
-    value: '& 3M',
-    title: 'Job posted everyday`s with  qualification',
+    value: '200K ',
+    title: '200 thousand registred products and services',
   },
 ];
 
@@ -50,22 +50,27 @@ const Features = () => {
               sx={styles.heading}
               title={
                 <Fragment>
-                  Smart Jackpots <br />
-                  that you may love this anytime &amp; anywhere
+               Give feedback and start earning rewards.
                 </Fragment>
               }
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description="Give feedback straight from your mobile "
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Mobile App
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+              WhatsAPP
             </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Messenger
+              </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
+            <Button variant="primary" sx={styles.button}>
+             Get started
+            </Button>
             </Box>
           </Box>
         </Box>

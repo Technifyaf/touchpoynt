@@ -12,20 +12,20 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
-    description: 'See where you’re making and spending money in real.',
+    title: 'Understand your customers',
+    description: 'See your businesss from your customers` perfective',
   },
   {
     id: 2,
     icon: dart,
-    title: 'Best Strategy',
-    description: 'Send money with three clicks by wire, check, or ACH.',
+    title: 'Decide better ',
+    description: 'Make data driven decisions and satisfy your customers',
   },
   {
     id: 3,
     icon: rocket,
-    title: 'Boost Performance',
-    description: 'Choose the right tone and fast formality level.',
+    title: 'Save money',
+    description: 'Spend less money trying understand your customers',
   },
   {
     id: 4,
@@ -41,8 +41,8 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Go Beyond unlimited features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Benefits"
+          description="Why you can't afford not to use this product"
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

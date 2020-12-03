@@ -17,8 +17,8 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Leading companies trust us to develop most powerful software with our talent team"
-          description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
+          title="Big companies rely on data to make improvements, why shouldnt small business do?"
+          description="By measuring customer satisfaction, we believe we can improve the quality of service from Business."
         />
         <Box sx={styles.explore}>
           <LearnMore path="#!" label="Explore More" />

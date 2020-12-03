@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Text } from 'theme-ui';
+import { jsx, Box, Container, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import Image from 'components/image';
@@ -18,8 +18,8 @@ const Widgets = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Ultimate widgets of collection that will be used anywhere"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              title="Customer & Market intelligence"
+              description="Keep tabs on your relationship with customers , competitors and suppliers."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
@@ -30,8 +30,9 @@ const Widgets = () => {
               Completely responsive features
             </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
-            </Box>
+            <Button variant="primary" sx={styles.button}>
+             Get started
+            </Button>            </Box>
           </Box>
         </Box>
       </Container>

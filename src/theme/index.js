@@ -5,10 +5,10 @@ export default {
     textSecondary: '#02073E', // secondary body color
     heading: '#0F2137', // primary heading color
     headingSecondary: '#343D48', // heading color
-    background: '#FFFFFF', // body background color
-    backgroundSecondary: '#F9FBFD', // secondary background color
+    background: '#17EA1CD', // body background color
+    backgroundSecondary: '#a09cd0', // secondary background color
     borderColor: '#F3F4F5', // border color
-    primary: '#28DDB2', // primary button and link color
+    primary: '#a09cd0', // primary button and link color
     secondary: '#EF9E48', // secondary color - can be used for hover states
     muted: '#7B8188', // muted color
     accent: '#609', // a contrast color for emphasizing UI
