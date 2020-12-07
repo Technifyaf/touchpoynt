@@ -15,10 +15,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Analyse customer feedback
+           Delight customers
             </Heading>
             <Text as="p" sx={styles.text}>
-             Aggregrate and analyse customer feedback easier from Lesotho's #1 customer feedback platform.
+Improve customer experience through gamification from Lesotho's one and only customer feedback platform.
             </Text>
             <Button variant="primary" sx={styles.button}>
              Get started

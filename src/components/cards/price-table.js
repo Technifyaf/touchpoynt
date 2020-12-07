@@ -30,8 +30,8 @@ const PriceTable = ({ price, isMonthly }) => {
             </Text>
 
             <Text as="p" sx={styles.priceAmount}>
-              {price?.amount?.toFixed(0)}
-              /mo
+              R{price?.amount?.toFixed(0)}
+              /mo/user
             </Text>
           </Box>
         )}

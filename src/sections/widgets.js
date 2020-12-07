@@ -18,16 +18,24 @@ const Widgets = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Customer & Market intelligence"
-              description="Keep tabs on your relationship with customers , competitors and suppliers."
+              title="Customer app features"
+              description="Engage with your favourite and subscribed brands"
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Request services from listed providers
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+             Recieve service updates
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+             Rate and review services
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+            Make referrals and recommendations
             </Text>
             <Box sx={styles.explore}>
             <Button variant="primary" sx={styles.button}>

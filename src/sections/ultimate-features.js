@@ -3,36 +3,37 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import UltimateFeature from 'components/cards/ultimate-feature';
 
-import bulb from 'assets/images/icons/bulb.png';
-import dart from 'assets/images/icons/dart.png';
-import rocket from 'assets/images/icons/rocket.png';
-import trophy from 'assets/images/icons/trophy.png';
+import chart from 'assets/images/icons/bar-chart.svg';
+import smile from 'assets/images/icons/smile.svg';
+import reward from 'assets/images/icons/gift.svg';
+import user from 'assets/images/icons/user-plus.svg';
 
 const data = [
   {
     id: 1,
-    icon: bulb,
+    icon: user,
+    title: 'Know your customer',
+    description: `Keep a record of customer interaction and experience`,
+  },
+  {
+    id: 2,
+    icon: chart,
     title: 'Understand your customers',
     description: 'See your businesss from your customers` perfective',
   },
   {
-    id: 2,
-    icon: dart,
-    title: 'Decide better ',
+    id: 3,
+    icon: smile,
+    title: 'Improve customer experience',
     description: 'Make data driven decisions and satisfy your customers',
   },
   {
-    id: 3,
-    icon: rocket,
-    title: 'Save money',
-    description: 'Spend less money trying understand your customers',
-  },
-  {
     id: 4,
-    icon: trophy,
-    title: 'Award history',
-    description: `Keep secure with fluent 2-factor authentication full activity.`,
+    icon: reward,
+    title: 'Reward customer loyalty',
+    description: 'Reward loyalty and incentivise forgiveness',
   },
+ 
 ];
 
 const UltimateFeatures = () => {

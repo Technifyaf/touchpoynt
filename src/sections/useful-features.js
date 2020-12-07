@@ -3,33 +3,33 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import UltimateFeature from 'components/cards/ultimate-feature';
 
-import bulb from 'assets/images/icons/bulb-2.png';
-import diamond from 'assets/images/icons/diamond.png';
-import help from 'assets/images/icons/help.png';
-import award from 'assets/images/icons/award.png';
+import rate from 'assets/images/icons/star.svg';
+import review from 'assets/images/icons/message-square.svg';
+import rank from 'assets/images/icons/list.svg';
+import reward from 'assets/images/icons/gift.svg';
 
 const data = [
   {
     id: 1,
-    icon: bulb,
+    icon: rate,
     title: 'Ratings',
     description: `Get your products & services rated by your customers and monitor quality.`,
   },
   {
     id: 2,
-    icon: diamond,
+    icon: review,
     title: 'Reviews',
     description: `Get customer reviews aggregated, analysed and summerized into sentiments.`,
   },
   {
     id: 3,
-    icon: help,
+    icon: rank,
     title: 'Ranking',
     description: ` See where your customers rank you against your competitors`,
   },
   {
     id: 4,
-    icon: award,
+    icon: reward,
     title: 'Rewards',
     description: `Monitor custormer economics, improve customer loyalty and issue rewards.`,
   },

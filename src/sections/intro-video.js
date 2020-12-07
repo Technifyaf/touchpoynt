@@ -17,8 +17,8 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Big companies rely on data to make improvements, why shouldnt small business do?"
-          description="By measuring customer satisfaction, we believe we can improve the quality of service from Business."
+          title="We live in data driven world, get your customer inteligence right"
+          description="By measuring customer satisfaction, we believe we can improve the quality of services from business."
         />
         <Box sx={styles.explore}>
           <LearnMore path="#!" label="Explore More" />
